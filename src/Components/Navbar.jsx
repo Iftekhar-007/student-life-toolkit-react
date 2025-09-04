@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router";
 
 const Navbar = () => {
   return (
@@ -9,7 +10,9 @@ const Navbar = () => {
         </div>
         <div className="navbar-center hidden lg:flex"></div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <NavLink to="/login" className="btn">
+            Log In
+          </NavLink>
 
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn m-1">
