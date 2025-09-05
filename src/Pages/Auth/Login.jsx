@@ -1,9 +1,12 @@
 import React from "react";
+import Logo from "../../Components/Logo/Logo";
 
 const Login = () => {
   return (
     <div>
-      <h2>Student Toolkit</h2>
+      <div className="lg:w-10/12 mx-auto pt-10">
+        <Logo></Logo>
+      </div>
       <div className="w-10/12 mx-auto min-h-screen flex items-center">
         <div className="grid md:grid-cols-2 gap-6 w-full bg-base-200 rounded-2xl  overflow-hidden">
           {/* Left side - Image */}
